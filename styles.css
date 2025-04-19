@@ -42,6 +42,11 @@ body {
   flex:1;
   box-sizing: border-box;
   outline: 1px solid black;
-  border-collapse: collapse;
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(218, 218, 218);
+  transition: background-color 2s ease;
+}
+
+.cols:hover {
+  transition: none;
+  background-color: rgb(49, 49, 49);
 }
