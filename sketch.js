@@ -46,19 +46,19 @@ function draw () {
       }
     });
   });
+
+  const reset = document.querySelector(".reset");
+
+  reset.addEventListener("click", () => {
+    cells.forEach(cell => {
+      cell.style.backgroundColor = 'rgb(218,218,218)';
+    });
+  });
 }
 
 clearGrid();
 createGrid(rows, cols);
 draw();
-
-const reset = document.querySelector(".reset");
-
-reset.addEventListener("click", () => {
-  cells.forEach(cell => {
-    cell.style.backgroundColor = 'rgb(218,218,218)';
-  });
-});
 
 const numberInput = document.querySelector(".number");
 
