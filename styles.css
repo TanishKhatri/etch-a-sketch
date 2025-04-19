@@ -44,9 +44,22 @@ body {
   outline: 1px solid black;
   background-color: rgb(218, 218, 218);
   transition: background-color 2s ease;
+  user-select: none;
 }
 
 .cols:hover {
   transition: none;
-  background-color: rgb(49, 49, 49);
+  background-color: rgb(105, 105, 105);
+}
+
+.controls {
+  display: flex;
+  gap: 200px;
+}
+
+.reset {
+  background-color: rgb(255, 94, 0);
+  border: 1px solid white;
+  color:white;
+  border-radius: 5px;
 }
