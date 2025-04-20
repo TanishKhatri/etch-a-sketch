@@ -51,7 +51,7 @@ function draw () {
 
   reset.addEventListener("click", () => {
     cells.forEach(cell => {
-      cell.style.backgroundColor = 'rgb(218,218,218)';
+      cell.style.backgroundColor = '';
     });
   });
 }
